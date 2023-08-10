@@ -29,46 +29,46 @@ exports[`renders homepage unchanged 1`] = `
       >
         <a
           class="card"
-          href="https://nextjs.org/docs"
+          href="/form"
         >
           <h3>
-            Documentation →
+            Form →
           </h3>
           <p>
-            Find in-depth information about Next.js features and API.
+            Example page includes form.
           </p>
         </a>
         <a
           class="card"
-          href="https://nextjs.org/learn"
+          href="/dummy"
         >
           <h3>
-            Learn →
+            Dummy →
           </h3>
           <p>
-            Learn about Next.js in an interactive course with quizzes!
+            This is dummy link.
           </p>
         </a>
         <a
           class="card"
-          href="https://github.com/vercel/next.js/tree/canary/examples"
+          href="/dummy"
         >
           <h3>
-            Examples →
+            Dummy →
           </h3>
           <p>
-            Discover and deploy boilerplate example Next.js projects.
+            This is dummy link.
           </p>
         </a>
         <a
           class="card"
-          href="https://vercel.com/new"
+          href="/dummy"
         >
           <h3>
-            Deploy →
+            Dummy →
           </h3>
           <p>
-            Instantly deploy your Next.js site to a public URL with Vercel.
+            This is dummy link.
           </p>
         </a>
       </div>

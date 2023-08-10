@@ -5,7 +5,9 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --watch",
-    "test:ci": "jest --ci"
+    "test:updateSnapshot": "jest --watch --updateSnapshot",
+    "test:ci": "jest --ci",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -17,6 +19,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.36.2",
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/react": "14.0.0",
     "@testing-library/user-event": "14.4.3",
