@@ -7,7 +7,8 @@
     "test": "jest --watch",
     "test:updateSnapshot": "jest --watch --updateSnapshot",
     "test:ci": "jest --ci",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",

@@ -11,7 +11,14 @@ export default function Home() {
         Form Page
       </Typography>
       <form>
-        <TextField value={value} onChange={(e) => setValue(e.target.value)} label={"Name"} fullWidth margin={"normal"} />
+        <TextField
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
+          name="name"
+          label={"Name"}
+          fullWidth
+          margin={"normal"}
+        />
       </form>
 
       <Button variant={"contained"} onClick={() => {
